@@ -1,0 +1,50 @@
+12 core
+32 gb and 64 gb RAM
+
+
+Please find the train/test dataset in below location in SCT.
+
+Datasets/Batch_47/PHD/Batch47_Phd_Bigdata
+
+Problem Description:
+
+The data is available in two folders as train and test.
+
+The train folder is segregated into different folders . The folder name is the target for the text files inside the folder.
+
+You have to read the data from each folder and create a data frame out of it which has all the text files from all
+
+the folders and has the folder names as target.
+
+ 
+
+The test data is also group of files for which you have to predict the category to which it belongs.
+
+ 
+
+Note:  Refrain from using Pandas while ingestion and Preprocessing .If found , the  submission for the test will be disqualified.
+
+ 
+
+Tasks:
+
+ 
+
+Use the Jupyter notebook and the train folder to create the model and save the model  created above to HDFS
+Stream the test files using Kafka Producer in Python
+Use Spark Structured Streaming to find the categories of the test files.
+Copy the output from the console and save it to the Notepad
+ 
+
+Submission artifacts:
+
+Zip the following and upload as single file:
+
+Jupiter notebook with properly commented Code
+Kafka Producer code in .py
+Spark Structured Streaming Code in .py
+Notepad where the result is copied in .txt
+ 
+
+Reference code
+
